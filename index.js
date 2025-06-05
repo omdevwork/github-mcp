@@ -74,3 +74,5 @@ async function init() {
 }
 
 init();
+
+// changes in index.js
