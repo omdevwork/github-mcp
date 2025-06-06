@@ -11,6 +11,7 @@ const server = new McpServer({
 });
 
 function runCommand(command, cwd) {
+  // changes
   try {
     const stdout = execSync(command, { cwd, encoding: "utf8" });
     return { stdout, stderr: "", error: null };
